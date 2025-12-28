@@ -1,6 +1,8 @@
 # Predictive Maintenance Dashboard
 
 A full-stack machine learning system that predicts equipment failure probability using sensor data from NASA's Turbofan Engine Degradation dataset. The system provides real-time risk assessment through a REST API and interactive web dashboard.
+<img width="1866" height="970" alt="image" src="https://github.com/user-attachments/assets/ae39317f-7286-4c04-bd02-76ddf4d08776" />
+
 
 ## Problem Statement
 
