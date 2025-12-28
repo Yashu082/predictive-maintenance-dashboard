@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './PredictionForm.css';
 
-const API_URL = 'http://localhost:8000/api/predict/';
-const FEATURES_URL = 'http://localhost:8000/api/features/';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api/predict/';
+const FEATURES_URL = process.env.REACT_APP_API_URL?.replace('/predict/', '/features/') || 'http://localhost:8000/api/features/';
 
 function PredictionForm({ onPrediction }) {
   const [datasetType, setDatasetType] = useState('synthetic'); // 'synthetic' or 'nasa'
