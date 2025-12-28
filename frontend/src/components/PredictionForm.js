@@ -7,7 +7,6 @@ const FEATURES_URL = 'http://localhost:8000/api/features/';
 
 function PredictionForm({ onPrediction }) {
   const [datasetType, setDatasetType] = useState('synthetic'); // 'synthetic' or 'nasa'
-  const [requiredFeatures, setRequiredFeatures] = useState([]);
   const [formData, setFormData] = useState({
     // Synthetic dataset
     temperature: '',
@@ -32,7 +31,6 @@ function PredictionForm({ onPrediction }) {
     try {
       const response = await axios.get(FEATURES_URL);
       const features = response.data.features || [];
-      setRequiredFeatures(features);
       
       // Detect dataset type based on features
       if (features.includes('setting_1') || features.includes('s_2') || 
