@@ -1,0 +1,25 @@
+.charts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.chart-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.chart-wrapper h3 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+  font-size: 1.1rem;
+}
+

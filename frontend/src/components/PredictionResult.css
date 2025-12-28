@@ -1,0 +1,89 @@
+.result-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.result-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.probability-circle {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.circle-progress {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle-inner {
+  width: 85%;
+  height: 85%;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.probability-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.probability-label {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 5px;
+}
+
+.risk-badge {
+  padding: 12px 24px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.result-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #555;
+}
+
+.detail-value {
+  color: #333;
+  font-size: 1.05rem;
+}
+
