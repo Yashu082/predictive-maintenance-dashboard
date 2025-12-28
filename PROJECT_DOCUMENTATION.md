@@ -165,7 +165,6 @@ Predictive Maintenance Dashboard/
 │
 ├── README.md                        # Main documentation
 ├── QUICK_START_HUGGINGFACE.md       # Quick start guide
-├── INSTALLATION_FIX.md              # Python 3.13 fix guide
 └── PROJECT_DOCUMENTATION.md         # This file
 ```
 
@@ -208,7 +207,7 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-**Note**: If you're using Python 3.13 and get scikit-learn errors, see `INSTALLATION_FIX.md`
+**Note**: If you're using Python 3.13 and get scikit-learn errors, update `requirements.txt` to use `scikit-learn>=1.4.0`
 
 ### Step 3: Preprocess NASA Dataset
 
@@ -560,8 +559,7 @@ python ml/preprocess_huggingface_nasa.py
 
 **Problem**: `scikit-learn` compilation errors (Python 3.13)
 ```bash
-# Solution: See INSTALLATION_FIX.md
-# Update requirements.txt to use scikit-learn >= 1.4.0
+# Solution: Update requirements.txt to use scikit-learn >= 1.4.0
 ```
 
 **Problem**: Poor model performance
@@ -654,6 +652,14 @@ This project is for educational purposes. The NASA Turbofan Engine Degradation D
 
 ---
 
+## 👤 Author
+
+**Yaswanth Koppanathi**
+
+This project was developed as a comprehensive demonstration of full-stack machine learning engineering, combining data science, backend API development, and frontend user interface design.
+
+---
+
 ## 👥 Credits
 
 - **Dataset**: NASA Prognostics Data Repository
@@ -662,6 +668,5 @@ This project is for educational purposes. The NASA Turbofan Engine Degradation D
 
 ---
 
-**Last Updated**: 2024
+**Last Updated**: December 2025 
 **Version**: 1.0.0
-
