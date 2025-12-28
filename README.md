@@ -177,4 +177,23 @@ This project demonstrates end-to-end ML system design: data preprocessing, model
 
 ## Author
 
+**Yaswanth Koppanathi**
+
 Built as a portfolio project demonstrating full-stack ML engineering capabilities.
+
+## Contact
+
+- **GitHub**: [yaswanth-koppanathi-ai](https://github.com/yaswanth-koppanathi-ai)
+- **Email**: yaswanthkoppanathi24@gmail.com
+- **LinkedIn**: [yaswanth-koppanathi-ai](https://www.linkedin.com/in/yaswanth-koppanathi-ai/)
+
+---
+
+**If you found this project helpful, please give it a star!** 
+
+## Project Stats
+
+![GitHub last commit](https://img.shields.io/github/last-commit/yaswanth-koppanathi-ai/Predictive-Maintenance-Dashboard)
+![GitHub issues](https://img.shields.io/github/issues/yaswanth-koppanathi-ai/Predictive-Maintenance-Dashboard)
+![GitHub stars](https://img.shields.io/github/stars/yaswanth-koppanathi-ai/Predictive-Maintenance-Dashboard)
+![GitHub forks](https://img.shields.io/github/forks/yaswanth-koppanathi-ai/Predictive-Maintenance-Dashboard)
